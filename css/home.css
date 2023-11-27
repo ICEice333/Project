@@ -1,0 +1,543 @@
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    background-color: #f9ee70;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Pixeled';
+    src: url('font/Pixeled.ttf') format('truetype'); 
+}
+
+.textbox-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    width: 90%;
+}
+
+.textbox-bggame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    width: 90%;
+}
+
+.scoreboard{
+    height: 600px;
+    width: 300px;
+    background-image: url(pic/board.png);
+    background-repeat: no-repeat;
+    padding-top: 75px;
+    margin: 50px 20px 0px 0px;
+}
+
+#menu{
+    width: 240px;
+    height: 450px;
+    margin-left: -20px;
+    background-repeat: no-repeat;
+    background-image: url(pic/foodmenu.jpg);
+    margin-right: 20px;
+}
+
+.score{
+    width: 300px;
+    height: 115px;
+    margin-top: 10px;
+    margin-left: 15px;
+    /* justify-content: center; */
+    background-image: url(pic/score.png);
+    background-repeat: no-repeat;
+    background-size: 270px;
+    display: flex;
+}
+
+#scoreme{
+    width: 300px;
+    height: 115px;
+    margin-top: 10px;
+    margin-left: 15px;
+    /* justify-content: center; */
+    background-image: url(pic/score.png);
+    background-repeat: no-repeat;
+    background-size: 270px;
+    display: flex;
+}
+
+#rank-pfp{
+    width: 110px;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+}
+
+#rank-pfp img{
+    vertical-align: bottom;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #edead3;
+}
+
+#rank{
+    font-family: 'Pixeled';
+    color:#570cbd;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 10px;
+}
+
+#Upfp img{
+    width: 60px;
+    border-radius: 30px;
+    background-color: #edead3;
+}
+
+/* #detail{
+
+} */
+
+#Uname{
+    font-family: 'Pixeled';
+    color:#570cbd;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+#Uname1{
+    font-family: 'Pixeled';
+    color:#570cbd;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+#Uname2{
+    font-family: 'Pixeled';
+    color:#570cbd;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+#Uname3{
+    font-family: 'Pixeled';
+    color:#570cbd;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+#infoU{
+    display: flex;
+    align-items: center;
+}
+
+#icondec{
+    width: 25px;
+    margin: 5px 8px 0px 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#iconheart{
+    width: 25px;
+    margin: 5px 8px 0px 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#iconheart:hover{
+    transform: scale(1.2);
+}
+
+#scorepoint{
+    font-family: 'Pixeled';
+    color:#422800;
+    font-size: 10px;
+}
+
+#likecount{
+    font-family: 'Pixeled';
+    color:#422800;
+    font-size: 10px;
+}
+
+.blockgame{
+    margin-top: 61px;
+}
+
+.display{
+    width: 750px;
+    height: 450px;
+    justify-content: center;
+    background-image: url(pic/frame.PNG);
+    position: relative;
+}
+
+.text{
+    text-align: center;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+/* css button from : https://getcssscan.com/css-buttons-examples */
+.button-01-game{
+    background-color: #fff;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #570cbd;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Pixeled';
+    letter-spacing: 2px;
+    padding: 0px 10px 7px 15px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* margin: บน ขวา ล่าง ซ้าย ; */
+    margin: 15px 10px 0px 10px;
+}
+
+.button-01-game:hover{
+    background-color: #570cbd;
+    color: #fff;
+}
+
+.button-01{
+    background-color: #fff;
+    border: 2px solid #570cbd;
+    border-radius: 30px;
+    /* box-shadow: #422800 4px 4px 0 0; */
+    color: #570cbd;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 10px;
+    font-family: 'Pixeled';
+    letter-spacing: 2px;
+    padding: 0px 10px 3px 12px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0px 0px 0px 0px;
+}
+
+.button-01:hover{
+    background-color: #570cbd;
+    color: #fff;
+}
+
+.listmenu{
+    display: flex;
+    width: 240px;
+    text-align: center;
+}
+
+#foodlist{
+    font-family: 'pixeled';
+    font-size: 13px;
+    margin-top: 30px;
+    width: 120px;
+    padding-left: 25px;
+}
+
+#profile{
+    font-family: 'pixeled';
+    font-size: 13px;
+    margin-top: 30px;
+    width: 120px;
+    padding-right: 19px;
+}
+
+.showlist{
+    color:#422800;
+}
+
+.hidelist{
+    color:#4228007a;
+}
+
+#container{
+    justify-content: center;
+    height: 360px;
+    width: 240px;
+    padding: 20px 0px 0px 0px;
+}
+
+.foodbox{
+    margin: auto;
+}
+
+#bagbox{
+    background-image: url(pic/box.jpg);
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 110px;
+}
+
+#bagbox img{
+    width: 50px;
+    margin: 40px 0px 0px 35px;
+}
+
+#fishbox{
+    background-image: url(pic/box.jpg);
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 110px;
+}
+
+#fishbox img{
+    width: 55px;
+    margin: 40px 0px 0px 33px;
+}
+
+#donutbox{
+    background-image: url(pic/box.jpg);
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 110px;
+}
+
+#donutbox img{
+    width: 50px;
+    margin: 45px 0px 0px 35px;
+}
+
+.shaking:hover{
+    animation: shake 0.25s;
+}
+
+@keyframes shake{
+    10% {
+        transform: rotate(10deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    30% {
+        transform: rotate(10deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+}
+
+.profilebox{
+    width: 240px;
+    height: 360px;
+}
+
+.SlcCat{
+    width: 240px;
+    height: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#catForChoose{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#button{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px 0px 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#pre{
+    width: 25px;
+    height: 25px;
+}
+
+.doneBTN{
+    text-align: center;
+}
+
+.logoutBTN{
+    text-align: center;
+    margin-top: 16px;
+}
+
+#post{
+    width: 25px;
+    height: 25px;
+    transform: scaleX(-1);
+}
+
+.button-Comment{
+    background-color:  #ff5890;
+    border: 2px solid #422800;
+    border-radius: 10px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 10px;
+    font-family: 'Pixeled';
+    letter-spacing: 2px;
+    padding: 0px 20px 3px 24px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 30px 10px 0px 10px;
+}
+
+.commentBTN {
+    text-align: center;
+}
+
+.button-Comment:hover{
+    background-color: #570cbd;
+    color: #fff;
+}
+
+.button-logout{
+    background-color: #fff;
+    border: 2px solid #570cbd;
+    border-radius: 30px;
+    /* box-shadow: #422800 4px 4px 0 0; */
+    color: #570cbd;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 7px;
+    font-family: 'Pixeled';
+    letter-spacing: 2px;
+    padding: 0px 35px 3px 45px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 5px 10px 0px 10px;
+}
+
+.button-logout:hover{
+    background-color: #570cbd;
+    color: #fff;
+}
+
+/* game */
+#cat {
+    width: 100px;
+    height: 100px;
+    background-size: 95%;
+    position: absolute;  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#feedFood{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.starScore{
+    padding: 30px 0px 0px 30px;
+}
+
+#gameStar{
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#gamepoint{
+    font-family: 'Pixeled';
+    color:#422800;
+    font-size: 25px;
+}
+
+.commentator{
+    justify-content: center;
+    text-align: right;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+textarea{
+	width: 100%;
+	min-width: 450px;
+	height: 100px;
+	margin-right: 30px;
+    margin-left: 35px;
+	text-align: left;
+	font-size: 20px;
+    box-shadow: inset 0 0 10px 5px #f9ee70;
+    color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+
+.pawpost{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.pawpost img{
+    width: 80px;
+    height: auto;
+    rotate: -20deg;
+    margin-bottom: 30px;
+}
+
+.sentBoxGame{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.sentBox{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.sentBox > p{
+    text-align: center;
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+}
+.sentBoxGame > p{
+    text-align: center;
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+}

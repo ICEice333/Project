@@ -1,0 +1,100 @@
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    background-color: #f9ee70;
+}
+
+@font-face {
+    font-family: 'pixeled';
+    src: url('font/Pixeled.ttf') format('truetype'); 
+}
+
+.wrongpw{
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.wrongpw img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.samename{
+    margin: 100px 400px 0px 400px;
+}
+
+.samename img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#center{
+    text-align: center;
+    justify-content: center;
+}
+
+.button-01{
+    background-color: #570cbd;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+    letter-spacing: 2px;
+    padding: 0px 15px 7px 20px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px 10px 0px 10px;
+}
+
+.button-01:hover{
+    background-color: #ffffff;
+    color: #570cbd;
+}
+
+.sadcat{
+    display: flex;
+    justify-content: center;
+}
+
+#quote{
+    position: relative;
+    display: inline-block;
+}
+
+.quote-img{
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.quote-text{
+    position: absolute;
+    top: 260px;
+    left: 53%;
+    text-align: center;
+}
+p{
+    color:#570cbd;
+    font-family:  'Pixeled';
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+

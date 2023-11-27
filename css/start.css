@@ -1,0 +1,135 @@
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    background-color: #f9ee70;
+}
+
+@font-face {
+    font-family: 'pixeled';
+    src: url('font/Pixeled.ttf') format('truetype'); 
+}
+
+.textbox-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* .btn-pic img {
+    width: 200px;
+} */
+
+/* .text-btn {
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 15px;
+    color: #570cbd;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 55px;
+    color: #422800;
+    text-align: center;
+}
+
+span {
+    color: #422800;
+} */
+
+button {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+a:hover{
+    color: #fff;
+}
+
+.logo_resize{
+    text-align: center;
+    width: 750px;
+    height: 450;
+}
+
+.logo_resize>img {
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+
+.display{
+    width: 750px;
+    height: 450px;
+    justify-content: center;
+    background-image: url(pic/frame.PNG);
+}
+
+.text{
+    text-align: center;
+}
+
+/* css button from : https://getcssscan.com/css-buttons-examples */
+.button-01{
+    background-color: #fff;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #570cbd;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+    letter-spacing: 2px;
+    padding: 0px 15px 7px 20px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px 10px 0px 10px;
+}
+
+.button-01:hover{
+    background-color: #570cbd;
+}
+
+.btn-display{
+    text-align: center;
+}
+
+.picL img{
+    margin-right: 45px;
+}
+
+.picR img{
+    margin-left: 45px;
+}

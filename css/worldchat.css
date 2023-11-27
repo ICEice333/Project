@@ -1,0 +1,99 @@
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+*{
+    font-family: 'Pixeled';
+    src: url(/font/Pixeled.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #ff5890;
+}
+
+@font-face {
+    font-family: 'Pixeled';
+    src: url('font/Pixeled.ttf') format('truetype'); 
+}
+
+.textbox-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 650px;
+    background-image: url(pic/commentbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.worldchat{
+    width: 980px;
+    height: 608px;
+    margin-top: 40px;
+    justify-content: left;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.comment{
+    width: fit-content;
+    margin: 0px 0px 40px 0px;
+    text-align: left;
+}
+
+#sender{
+    font-size: 9px;
+    width: fit-content;
+}
+
+#CMTtext{
+    font-size: 12px;
+    border: solid #ff5890 2px;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 10px;
+    max-width: 700px;
+    word-wrap: break-word;
+}
+
+p > img{
+    width: 20px;
+    vertical-align: sub;
+    margin: 0px 3px 0px 10px;
+}
+
+.button{
+    background-color: #fff;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #570cbd;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Pixeled';
+    letter-spacing: 2px;
+    padding: 0px 20px 10px 30px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* margin: บน ขวา ล่าง ซ้าย ; */
+    margin: 30px 10px 25px 10px;
+}
+
+.button:hover{
+    background-color: #570cbd;
+    color: #fff;
+}
+
+#btnbox{
+    text-align: center;
+}

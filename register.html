@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='css/regis-login.css'>
+	<link rel="icon" type="image/png" href="css/pic/iconlogo.png">
+	<script src='regis.js'></script>
+</head>
+
+<body>
+	<div class="textbox-bg">
+		<div class="containBtn">
+			<div class="backBtn">
+				<a href="start.html"> 
+					<img src="css/pic/back-btn.png">
+				</a>
+			</div>
+			<div class="picL">
+				<img src="css/pic/joyL.PNG">
+			</div>
+		</div>
+
+		<form class="display" id="display" method="post" action="/register" accept-charset="utf-8">
+			<p>  sign up </p>
+			<div class="item">
+				<div id ="info-btn"> username </div>
+				<input type="text" name="username" id="username" required>
+				<span id="usererror"></span>
+			</div>
+			<div class="item">
+				<div id ="info-btn"> password </div>
+				<input type="password" name="password" required>
+			</div>
+			<div class="item">
+				<div id ="info-btn"> confirm password </div>
+				<input type="password" name="rePassword" required>
+				<span id="errormsg"></span>
+			</div>
+			<br>
+			<div class = "text">
+				<button class="button-01" type="submit" value="Register"> sign up </button>
+			</div>
+		</form>
+		<div class="picR">
+			<img src="css/pic/joyR.PNG">
+		</div>
+	</div>
+</body>
+
+</html>
